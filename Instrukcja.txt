@@ -1,0 +1,27 @@
+Instrukcja do projektu e-ticket:
+
+1. srodowisko:
+projekt wykonany jest w językach PHP, JS, HTML, CSS.
+Dla go pracy niezbędny server z obsługą PHP.
+System był testowany na OS Windows przy pomocy lokalnego serwera OpenServer.
+Jest możliwość rozmieszczenia go na hostingu (Przykładowo ru.000webhost.com - bardzo ubogi hosting,
+straszny dostęp do bazy danych, ponieważ wolny)
+
+2. instalacja:
+sciągamy pliki projektu z GIT albo
+git clone https://github.com/ginformatyka2018/ProgramEngineering.git
+Edytujemy plik project/php/connect.php -> wpisujemy dane dla lączenia z własną bazą danych.
+Przy pomocy queries tworzymy tablicy w bazie danych przez sql lub phpmyadmin.
+
+- OServer
+przenosimy go z foldera Downloads do foldera OpenServer/OSPanel/domains/WaszaNazwaDomena
+włączamy OServer -> My sites -> ProjectName albo w url przeglądarki wpisujemy "NazwaDomenaWOpenServer/"
+Wszystko.
+
+- Hosting
+Zapisujemy przez ftp wszystkie pliki do PublicHtml.
+
+3. Na index PHP rejestrujemy użytkownika systemu, wchodzimy do systemu z naszym loginem i hasłom.
+Wtedy możemy dodać konto nowego pasażera, zobaczyć wszystkie konta, dodać nową trasę, rozpocząć trase.
+
+Dla jazdy User musi startować trasę a pasażer na stronie trasy wprowadzić swoje hasło i login.
